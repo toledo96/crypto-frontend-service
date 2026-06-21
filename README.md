@@ -27,28 +27,26 @@ Este proyecto actúa como la capa de presentación que consume los servicios de 
 ## ⚙️ Configuración e Instalación
 
 1. Clona este repositorio:
-   ```bash
-   git clone [https://github.com/toledo96/crypto-frontend-service.git](https://github.com/toledo96/crypto-frontend-service.git)
-  ```
+```bash
+  git clone [https://github.com/toledo96/crypto-frontend-service.git](https://github.com/toledo96/crypto-frontend-service.git)
+```
 
 2. Instala las dependencias de Node:
-  ```
-    npm install
-  ```
+```
+  npm install
+```
 
 3. Configura las variables de entorno (asegúrate de apuntar a tu backend de Spring Boot). Crea un archivo .env en la raíz:
-  ```
-  
-    Fragmento de código
-  
+
+```  
+Fragmento de código
   VITE_API_BASE_URL=http://localhost:8080/api
-  
-  ```
+```
 
 4. Levanta el servidor de desarrollo:
-  ```
-    npm run dev
-  ```
+```
+  npm run dev
+```
 
 🔗 Proyecto Completo (Arquitectura Fullstack)
 Este frontend requiere del ecosistema backend para funcionar. Puedes consultar el repositorio del servidor, la lógica de caché en Redis y las pruebas unitarias aquí:
